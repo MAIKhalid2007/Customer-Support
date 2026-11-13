@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f15233;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.support-card {
+    background-color: #ffffff;
+    background-position: center;
+    width: 900px;
+    height: 520px;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(150, 30, 10, 0.3);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+    background-image: url('phone.jpg');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    
+}
+
+.form-section {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section h2 {
+    color: #e83828;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+
+.subtitle {
+    color: #777;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    font-size: 10px;
+    color: #777;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: #fcebec;
+    border-radius: 6px;
+    font-size: 12px;
+    color: #333;
+    outline:none;
+    transition: background-color 0.2s;
+
+}
+.input-group input::placeholder,
+.input-group textarea::placeholder {
+    color: #aaa;
+
+}
+
+.input-group textarea {
+    resize: none;
+    height: 110px;
+}
+
+.submit-btn {
+    background: linear-gradient(135deg, #ff473d, #e03228);
+    color: white;
+    border: none;
+    padding: 9px 22px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    float: right;
+    margin-top: 5px;
+}
